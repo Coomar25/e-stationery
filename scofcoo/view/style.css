@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font: size 2rem;
+    color: black;
+    font-family: 'lobster',cursive;
+}
+
+.navbar-brand:hover{
+    color: #57FEFF;
+}
+
+.nav-link{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Recursive', sans-serif;
+}
+
+.nav-link:hover{
+    color: deepskyblue;
+}
+
+.d-flex button{
+    background-color:rgb(248,26,92);
+    border-radius: 20px;
+}
+
+.search{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+   
+}
+
+.main{
+  background: url(../image/first.jpg)no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+
+}
+.main h1{
+  font-size: 4rem;
+  font-weight:700;
+  font-family: 'Times New Roman', serif;
+  color: black;
+  margin-top: 120px;
+}
+
+.btn1{
+    height: 35px;
+    width: 100px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    outline: none;
+    background-color:  rgb(248,26,92);
+}
+
+.tagline{
+    font-family:  'lobster',cursive; 
+    font-size: 2rem;
+}
+

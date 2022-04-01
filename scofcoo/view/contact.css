@@ -1,0 +1,49 @@
+/**********************************************************************/
+/************************ CONTACT ************************************/
+/********************************************************************/
+#contactWrap {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#contactWrap .overlay {
+    background: url("../assets/img/60.png");
+	pading-bottom: 60px;
+}
+#contactWrap h2.sectionTitle {
+    border-bottom: 1px solid #fff;
+}
+#contactWrap .blurb {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    
+}
+#contactWrap label {
+
+}
+#contactWrap .form-control {
+    border: 1px solid #c5c5c5;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 0 10px;
+    padding: 8px 5px;
+    width: 100%;
+	border-radius: 0;
+	color: #555;
+	box-shadow: none;
+}
+#contactWrap .form-control:focus {
+	border-color: #aaa;
+    box-shadow: none;
+}
+#contactWrap textarea.form-control {
+	margin: 0 0 10px;
+    max-height: 300px;
+    max-width: 100%;
+    width: 100%;
+	min-height: 120px;
+}
+#contactWrap button.btn {
+    margin-top: 15px;
+    width: 100%;
+}
